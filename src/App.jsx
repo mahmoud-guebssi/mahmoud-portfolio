@@ -14,6 +14,7 @@ import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
 import Certificates from './components/sections/Certificates';
 import Contact from './components/sections/Contact';
+import Chatbox from './components/Chatbox';
 
 function App() {
   const [currentLanguage, setCurrentLanguage] = useState('en');
@@ -41,6 +42,7 @@ function App() {
         <Skills />
         <Projects />
         <Certificates />
+        <Chatbox />
         <Contact />
       </main>
 
