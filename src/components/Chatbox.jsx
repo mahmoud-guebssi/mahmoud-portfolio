@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 
-const N8N_WEBHOOK_URL = "https://aware-lemming-rich.ngrok-free.app/webhook/ask"; 
+const N8N_WEBHOOK_URL = "https://aware-lemming-rich.ngrok-free.app/webhook-test/ask"; 
 
 export default function FloatingChatbot() {
   const [open, setOpen] = useState(false);
@@ -153,5 +153,6 @@ async function askAI(userMessage) {
 
   return "I couldn't understand the reply. Please try again.";
 }
+
 
 
